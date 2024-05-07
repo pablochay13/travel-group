@@ -4,7 +4,7 @@
         <nav class="border-gray-200 px-2 mb-10">
             <div class="container mx-auto flex flex-wrap items-center justify-between">
                 <a href="/" class="flex">
-                    <img class="w-[217px] h-12 left-[10px] top-[30px] 2xl:left-[150px] 2xl:top-[50px] absolute" src="{{ asset('/img/cancun-travel-experience-logo.webp') }}" />
+                    <img class="w-[217px] h-12 left-[10px] top-[30px] 2xl:left-[150px] 2xl:top-[50px] absolute" src="{{ asset('/img/travel-experience-logo.webp') }}" />
                 </a>
                 <div class="flex md:order-2">
                     <button data-collapse-toggle="mobile-menu-3" type="button" class="md:hidden text-white hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300 rounded-lg inline-flex items-center justify-center" aria-controls="mobile-menu-3" aria-expanded="false">

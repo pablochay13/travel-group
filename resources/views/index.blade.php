@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title')
-<title>Descubre y Disfruta Explora Sin Límites - Cancun Travel Experience</title>
+<title>Descubre y Disfruta Explora Sin Límites -  Travel Experience Group</title>
 <meta name="description" content="Experience seamless and stress-free travel in Cancun with our premier transportation service. From airport transfers to hotel pickups, we offer reliable and comfortable rides to your destination. Discover the beauty of Cancun without worries, as our professional drivers ensure a safe and efficient journey. Book your Cancun transfer now and enjoy a hassle-free travel experience!">
 <meta name="keywords" content="Cancun airport transfer, Cancun shuttle service, Cancun transportation, Cancun hotel transfers, Cancun transport service, atv tours, zipline and atv tour, zipline and atv cancun, activities atv single zipline and cenote, cenote and zipline tour with atvs, Mejores tours en Cancún, Tours todo incluido en Cancún, Tours con transporte incluido, Tours con guía turístico, Tours con entradas a atracciones, Tours con actividades acuáticas, Tours con experiencias gastronómicas">
 <meta name="robots" content="index, follow">
@@ -15,135 +15,8 @@
 
 @section('content')
 
-<!-- about -->
-<div class="container 2xl:w-[1280px] mx-auto py-12">
-    <div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-2 gap-4">
-        <div class="justify-center text-6xl rounded-xl p-6">
-            <p class="text-orange-600 text-base uppercase leading-snug">Acerca de nosotros</p>
-            <p class="text-zinc-900 text-[35px] 2xl:text-[65px] font-normal pb-12">Cancun Travel Experience</p>
-            <p class="text-zinc-800 text-lg font-normal leading-[27px]">
-                Somos una empresa turística con más de 30 años de experiencia, dedicada a brindar las mejores experiencias a nuestros valiosos clientes.
-                <br><br>
-                Cancun Travel Experience es una de las marcas de The Travel Experience Group que abarca una amplia variedad de empresas turísticas, desde servicios de Destination Management hasta tour operadores locales.
-                <br><br>
-                Fundada originalmente en 1987 como Servicios Turisticos del Sur (Operadora Turistica Huatulcos DMC S.A. de C.V), nuestra agencia de viajes receptiva fue pionera en Huatulco, México.
-
-            </p>
-            <div class="mt-12 px-[35px] py-5 bg-orange-600 rounded-[3px] justify-center items-center gap-2.5 inline-flex">
-                <a class="text-white text-lg font-bold">Reserva ahora</a>
-            </div>
-        </div>
-        <div class="flex justify-center rounded-xl p-0 2xl:p-6">
-            <img class="h-auto max-w-full 2xl:h-[574px]" src="{{ asset('/img/cancun-travel-experience-somos.webp') }}" />
-        </div>
-    </div>
-</div>
-
-<div class="w-full bg-slate-50">
-    <div class="container 2xl:w-[1280px] mx-auto py-12">
-        <div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-2 gap-4 py-12">
-            <div class="flex justify-center rounded-xl p-0 2xl:p-6">
-                <img class="h-auto max-w-full 2xl:h-[574px]" src="{{ asset('/img/cancun-travel-experience-somos-2.webp') }}" />
-            </div>
-            <div class="justify-center text-6xl rounded-xl p-6">
-                <p class="text-orange-600 text-base uppercase leading-snug">Acerca de nosotros</p>
-                <p class="text-zinc-900 text-[35px] 2xl:text-[65px] font-normal pb-12">Cancun Travel Experience</p>
-                <p class="text-zinc-800 text-lg font-normal leading-[27px]">
-                    Siempre motivados e impulsados por un estricto sentido de responsabilidad hacia nuestros valiosos clientes y grandes socios, estamos orgullosos de nuestro trabajo, nuestros valores y nuestra gente.
-                    <br><br>
-                    Cancun Travel Experience ofrece un portafolio cuidadosamente seleccionado con los mejores tours, actividades y servicios de transportación dirigidos por profesionales, conectando a las personas con los lugares correctos.
-                </p>
-                <div class="mt-12 px-[35px] py-5 bg-orange-600 rounded-[3px] justify-center items-center gap-2.5 inline-flex">
-                    <a class="text-white text-lg font-bold">Reserva ahora</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- end about -->
-
-<!-- firts section -->
-<div class="w-full h-[1100px] 2xl:w-full md:h-[600px] 2xl:h-[750px] relative mt-12">
-    <div class="w-full h-[768px] 2xl:w-[1280px] 2xl:h-[650px] flex items-center justify-center md:justify-start 2xl:justify-center mt-12 absolute">
-        <div class="w-[390px] h-[768px] md:left-[250px] md:w-[512px] md:top-[50px] 2xl:w-[712px] 2xl:h-[370px] 2xl:top-[50px] absolute flex-col justify-start items-start gap-4 pl-5 2xl:pl-0 inline-flex">
-            <p class="text-orange-600 text-sm font-semibold font-['PP Mori'] uppercase tracking-widest">Experiencias</p>
-            <p class="flex-col justify-start items-start gap-[30px] flex">
-                <span class="2xl:w-[712px]"><span class="text-slate-950 text-2xl 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[30px] 2xl:leading-[60px]">Deseamos </span><span class="text-orange-600 text-2xl 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[30px] 2xl:leading-[60px]">que vivas</span><span class="text-slate-950 text-2xl 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[30px] 2xl:leading-[60px]">, el </span><span class="text-blue-900 text-2xl 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[30px] 2xl:leading-[60px]">mejor</span><span class="text-slate-950 text-2xl 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[30px] 2xl:leading-[60px]"> momento</span></span>
-            </p>
-            <p class="w-[390px] 2xl:w-[710px] text-zinc-800 text-lg font-normal font-['PP Mori'] leading-[27px]">
-                Ya sea que estés buscando una escapada romántica, unas vacaciones familiares llenas de diversión o una emocionante aventura con amigos, en Travel Group tenemos la experiencia perfecta para ti. Deja que nuestros expertos en viajes te guíen en la creación de recuerdos que atesorarás para siempre.
-                <br> <br>
-                No solo ofrecemos tours y traslados; te llevamos a vivir experiencias inolvidables que te sumergirán en la belleza y la emoción de cada destino. Desde explorar antiguas ruinas hasta relajarte en playas paradisíacas, tenemos una amplia gama de experiencias diseñadas para satisfacer tus deseos de aventura y descubrimiento.
-            </p>
-            <div class="px-[35px] py-5 bg-orange-600 rounded-[5px] justify-center items-center gap-2.5 inline-flex">
-                <a href="tours" class="text-white text-base font-semibold font-['PP Mori']">Reserva ahora</a>
-            </div>
-        </div>
-
-        <div class="w-[400px] 2xl:w-[532px] h-[597px] md:left-[750px] 2xl:left-[1148px] top-[448px] md:top-[0px] 2xl:top-0 absolute">
-            <!-- <div class="h-auto 2xl:w-[532px] 2xl:h-[597px] left-0 top-0 absolute bg-zinc-300"></div> -->
-            <img class="h-auto max-w-full 2xl:w-[532px] 2xl:h-[597px] left-0 top-0 absolute rounded-lg" src="{{ asset('/img/cancun-travel-experience-transportation.webp') }}" />
-        </div>
-    </div>
-</div>
-
-<!-- card section -->
-<!-- <div class="w-full h-auto 2xl:h-auto flex-col justify-start items-center gap-10 inline-flex my-12">
-    <div class="flex-col justify-start items-start gap-10 flex">
-        <div class="flex-col justify-start items-start gap-[25px] flex">
-            <div class="flex-col justify-start items-start gap-[17px] px-10 2xl:px-0 flex">
-                <div class="text-orange-600 text-md 2xl:text-sm font-semibold font-['PP Mori'] uppercase tracking-widest">Nuestras experiencias</div>
-                <div><span class="text-slate-950 text-[30px] 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[40px] 2xl:leading-[60px]">Top </span><span class="text-blue-900 text-[30px] 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[40px] 2xl:leading-[60px]">Experiences</span></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="w-full h-auto 2xl:h-auto flex-col justify-start items-center gap-10 inline-flex my-12">
-        <div x-data="{ openTab: 1 }" class="p-8">
-            <div class="container w-auto md:w-full 2xl:w-[1280px] mx-auto pb-12">
-                <div class="mb-4 flex flex-col md:flex-row space-x-4 p-2 bg-white rounded-lg shadow-md">
-                    <button x-on:click="openTab = 1" :class="{ 'bg-orange-600 text-white': openTab === 1 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Top Experiencias</button>
-                    <button x-on:click="openTab = 2" :class="{ 'bg-orange-600 text-white': openTab === 2 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Turismo y Cultura</button>
-                    <button x-on:click="openTab = 3" :class="{ 'bg-orange-600 text-white': openTab === 3 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Experiencias de Aventura</button>
-                    <button x-on:click="openTab = 4" :class="{ 'bg-orange-600 text-white': openTab === 4 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Barcos y experiencias acuáticas</button>
-                    <button x-on:click="openTab = 5" :class="{ 'bg-orange-600 text-white': openTab === 5 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Traslados</button>
-                </div>
-
-                <div x-show="openTab === 1" class="transition-all duration-300 bg-white p-4 rounded-lg shadow-md border-l-4 ">
-                    <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/ed6014cf-0772-484f-ab73-511bb2e36cc4/product-list/56250"></div>
-                    <noscript>Please enable javascript in your browser to book</noscript>
-                </div>
-
-                <div x-show="openTab === 2" class="transition-all duration-300 bg-white p-4 rounded-lg shadow-md border-l-4 ">
-                    <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/ed6014cf-0772-484f-ab73-511bb2e36cc4/product-list/39266"></div>
-                    <noscript>Please enable javascript in your browser to book</noscript>
-                </div>
-
-                <div x-show="openTab === 3" class="transition-all duration-300 bg-white p-4 rounded-lg shadow-md border-l-4 ">
-                    <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/ed6014cf-0772-484f-ab73-511bb2e36cc4/product-list/39275"></div>
-                    <noscript>Please enable javascript in your browser to book</noscript>
-                </div>
-
-                <div x-show="openTab === 4" class="transition-all duration-300 bg-white p-4 rounded-lg shadow-md border-l-4 ">
-                    <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/ed6014cf-0772-484f-ab73-511bb2e36cc4/product-list/39264"></div>
-                    <noscript>Please enable javascript in your browser to book</noscript>
-                </div>
-
-                <div x-show="openTab === 5" class="transition-all duration-300 bg-white p-4 rounded-lg shadow-md border-l-4 ">
-                    <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/ed6014cf-0772-484f-ab73-511bb2e36cc4/product-list/51127"></div>
-                    <noscript>Please enable javascript in your browser to book</noscript>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="w-full 2xl:w-[955px] h-1.5 relative">
-        <div class="w-[108px] 2xl:w-[955px] h-px left-0 top-[2px] absolute opacity-40 bg-slate-950"></div>
-        <div class="w-[58px] 2xl:w-[508px] h-1.5 left-0 top-0 absolute bg-blue-900"></div>
-    </div>
-</div> -->
-<div class="text-center">
-    <p class="text-sm leading-7 text-gray-500 font-regular">
+<div class="text-center pt-12">
+    <p class="text-sm leading-7 text-orange-600 font-regular">
         Travel Group
     </p>
     <h3 class="text-3xl sm:text-5xl leading-normal font-extrabold text-gray-900">
@@ -159,7 +32,8 @@
             </a>
             <div class="p-6">
                 <h2 class="text-2xl font-bold text-gray-800 mb-2">
-                    <img class="w-full h-auto object-cover" src="{{ asset('/img/cancun-travel-experience-logo.webp') }}" />
+                    <!-- <img class="w-full h-auto object-cover" src="{{ asset('/img/cancun-travel-experience-logo.webp') }}" /> -->
+                    <p class="text-center text-blue-900">Cancún <span class="text-orange-600">Travel</span> Experience</p>
                 </h2>
             </div>
         </div>
@@ -172,7 +46,7 @@
             </a>
             <div class="p-6">
                 <h2 class="text-2xl font-bold text-gray-800 mb-2">
-                    <img class="w-full h-auto object-cover" src="{{ asset('/img/cabos-travel-experience-logo.webp') }}" />
+                    <p class="text-center text-blue-900">Cabo <span class="text-orange-600">Travel</span> Experience</p>
                 </h2>
                 <!-- <p class="text-gray-700 leading-tight mb-4">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu sapien porttitor, blandit velit ac,
@@ -196,80 +70,67 @@
             </a>
             <div class="p-6">
                 <h2 class="text-2xl font-bold text-gray-800 mb-2">
-                    <img class="w-full h-auto object-cover" src="{{ asset('/img/huatulco-travel-experience-logo.webp') }}" />
+                    <!-- <img class="w-full h-auto object-cover" src="{{ asset('/img/huatulco-travel-experience-logo.webp') }}" /> -->
+                    <p class="text-center text-blue-900">Huatulco <span class="text-orange-600">Travel</span> Experience</p>
                 </h2>
             </div>
         </div>
     </div>
 </div>
 
-<!-- dropbox section -->
-<div class="w-full md:w-full 2xl:w-full h-[1000px] md:h-[1050px] 2xl:h-[1000px] relative pt-12 my-12">
-    <div class="w-[375px] md:w-full 2xl:w-full h-[30px] absolute md:flex justify-center items-start gap-[115px] 2xl:inline-flex">
+<!-- gallery section -->
+<div class="w-full h-[800px] relative my-12 pt-12 hidden md:block 2xl:block">
+    <div class="w-full h-[146px] px-5 2xl:px-0 top-0 absolute flex-col justify-center items-center gap-[11px] inline-flex">
+        <p class="text-orange-600 text-sm font-semibold font-['PP Mori'] uppercase tracking-widest">Experiencias</p>
+        <p class="w-full 2xl:w-[771.69px] text-center text-slate-950 text-[26px] 2xl:text-[42px] font-bold font-['Trip Sans'] leading-[40px] 2xl:leading-[60px]">Un pequeño vistazo a nuestro tour, una gran experiencia para siempre</p>
+    </div>
+    <div class="w-full h-[314px] 2xl:h-[514px] top-[176px] absolute flex justify-center items-center">
+        <div class="w-full h-[252px] left-[-50px] top-0 absolute justify-center items-center gap-2.5 flex 2xl:inline-flex">
+            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-1.webp') }}" />
+            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-2.webp') }}" />
+            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-3.webp') }}" />
+            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-4.webp') }}" />
+            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-5.webp') }}" />
+            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-6.webp') }}" />
+        </div>
 
-        <div class="w-[375px] 2xl:w-2/6 px-5 2xl:px-0 flex-col justify-start items-start gap-10 inline-flex">
-            <div class="flex-col justify-start items-start gap-[17px] flex">
-                <div class="text-orange-600 text-sm font-semibold font-['PP Mori'] uppercase tracking-widest">Nuestras experiencias</div>
-                <div class="w-[375px] 2xl:w-full"><span class="text-slate-950 text-[35px] 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[25px] 2xl:leading-[60px]">Transfers y Tours que Simplifican tu </span><span class="text-blue-900 text-[35px] 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[25px] 2xl:leading-[60px]">Viaje</span></div>
-            </div>
+        <div class="w-full h-[252px] left-[0px] top-[262px] absolute justify-center items-center gap-2.5 inline-flex">
+            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-7.webp') }}" />
+            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-8.webp') }}" />
+            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-9.webp') }}" />
+            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-10.webp') }}" />
+            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-11.webp') }}" />
+            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-12.webp') }}" />
+        </div>
+    </div>
+</div>
+
+<!-- firts section -->
+<div class="w-full h-[1100px] 2xl:w-full md:h-[600px] 2xl:h-[750px] relative mt-12">
+    <div class="w-full h-[768px] 2xl:w-[1280px] 2xl:h-[650px] flex items-center justify-center md:justify-start 2xl:justify-center mt-12 absolute">
+        <div class="w-[390px] h-[768px] md:left-[250px] md:w-[512px] md:top-[50px] 2xl:w-[712px] 2xl:h-[370px] 2xl:top-[50px] absolute flex-col justify-start items-start gap-4 pl-5 2xl:pl-0 inline-flex">
+            <p class="text-orange-600 text-sm font-semibold font-['PP Mori'] uppercase tracking-widest">Experiencias</p>
+            <p class="flex-col justify-start items-start gap-[30px] flex">
+                <span class="2xl:w-[712px]"><span class="text-slate-950 text-2xl 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[30px] 2xl:leading-[60px]">Deseamos </span><span class="text-orange-600 text-2xl 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[30px] 2xl:leading-[60px]">que vivas</span><span class="text-slate-950 text-2xl 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[30px] 2xl:leading-[60px]">, el </span><span class="text-blue-900 text-2xl 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[30px] 2xl:leading-[60px]">mejor</span><span class="text-slate-950 text-2xl 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[30px] 2xl:leading-[60px]"> momento</span></span>
+            </p>
+            <p class="w-[390px] 2xl:w-[710px] text-zinc-800 text-lg font-normal font-['PP Mori'] leading-[27px]">
+                Ya sea que estés buscando una escapada romántica, unas vacaciones familiares llenas de diversión o una emocionante aventura con amigos, en Travel Group tenemos la experiencia perfecta para ti. Deja que nuestros expertos en viajes te guíen en la creación de recuerdos que atesorarás para siempre.
+                <br> <br>
+                No solo ofrecemos tours y traslados; te llevamos a vivir experiencias inolvidables que te sumergirán en la belleza y la emoción de cada destino. Desde explorar antiguas ruinas hasta relajarte en playas paradisíacas, tenemos una amplia gama de experiencias diseñadas para satisfacer tus deseos de aventura y descubrimiento.
+            </p>
             <div class="px-[35px] py-5 bg-orange-600 rounded-[5px] justify-center items-center gap-2.5 inline-flex">
                 <a href="tours" class="text-white text-base font-semibold font-['PP Mori']">Reserva ahora</a>
             </div>
         </div>
 
-        <div class="w-[375px] 2xl:w-[639.67px] flex-col px-5 2xl:px-0 pt-12 md:pt-0 2xl:pt-0 justify-start items-start gap-[21px] inline-flex">
-            <div class="w-[375px] 2xl:w-[639.67px] flex-col justify-start items-start gap-[15px] flex">
-                <div class="w-[375px] 2xl:w-[634px] h-[54px] relative">
-                    <div class="w-[375px] 2xl:w-[403px] h-[54px] left-0 top-0 absolute flex-col justify-start items-start gap-[15px] inline-flex">
-                        <div class="flex-col justify-start items-start gap-[7px] flex">
-                            <p class="text-slate-950 text-[25px] font-bold font-['Trip Sans']">Traslados</p>
-                            <p class="text-orange-600 text-xs font-semibold font-['PP Mori'] uppercase tracking-widest">Podemos ocuparnos de tu transporte</p>
-                        </div>
-                    </div>
-                    <div class="w-[43px] h-[43px] left-[120px] 2xl:left-[591px] top-[4.35px] absolute">
-                        <div class="w-[33px] h-[33px] 2xl:w-[43px] 2xl:h-[43px] left-0 top-0 absolute flex justify-center items-center bg-orange-600 rounded-[22.65px]">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff" class="bi bi-patch-check-fill" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
-                                <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911l-1.318.016z" />
-                            </svg>
-                        </div>
-
-                    </div>
-                </div>
-                <p class="w-[375px] 2xl:w-[639.67px] text-zinc-600 text-sm font-normal font-['PP Mori'] leading-[23px]">Para hacer su viaje más fácil, podemos proveer cualquier servicio de transportación que requiera. Brindándole una experiencia vacacional libre de estrés y permitiéndole tener más tiempo para disfrutar de su visita, nuestra promesa es bastante simple, lo llevaremos de una manera rápida y eficiente desde el aeropuerto hasta su hotel y de regreso si así lo requiere.</span>
-                </p>
-            </div>
-
-            <div class="w-[375px] 2xl:w-[639.67px] h-[0px] opacity-20 border border-black"></div>
-
-            <div class="w-[375px] 2xl:w-[639.67px] flex-col justify-start items-start gap-[15px] flex">
-                <div class="w-[375px] 2xl:w-[634px] h-[54px] relative">
-                    <div class="w-[403px] h-[54px] left-0 top-0 absolute flex-col justify-start items-start gap-[15px] inline-flex">
-                        <div class="w-[375px] 2xl:w-[639.67px] flex-col justify-start items-start gap-[7px] flex">
-                            <p class="text-slate-950 text-[25px] font-bold font-['Trip Sans']">Experiencias</p>
-                            <p class="text-orange-600 text-xs font-semibold font-['PP Mori'] uppercase tracking-widest">Deseamos que vivas el mejor momento</p>
-                        </div>
-                    </div>
-                    <div class="w-[43px] h-[43px] left-[150px] 2xl:left-[591px] top-[4.35px] absolute">
-                        <div class="w-[33px] h-[33px] 2xl:w-[43px] 2xl:h-[43px] left-0 top-0 absolute flex justify-center items-center bg-blue-900 rounded-[22.65px]">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff" class="bi bi-patch-check-fill" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
-                                <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911l-1.318.016z" />
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-                <p class="w-[375px] 2xl:w-[639.67px] text-zinc-600 text-sm font-normal font-['PP Mori'] leading-[23px]">¡Explora la joya del Pacífico mexicano en Huatulco! Sumérgete en las aguas cristalinas del océano para descubrir la riqueza submarina en nuestros tours de snorkel y buceo. Embárcate en emocionantes excursiones en bote para explorar las impresionantes bahías y playas vírgenes de la región.</span>
-                </p>
-            </div>
+        <div class="w-[400px] 2xl:w-[532px] h-[597px] md:left-[750px] 2xl:left-[1148px] top-[448px] md:top-[0px] 2xl:top-0 absolute">
+            <img class="h-auto max-w-full 2xl:w-[532px] 2xl:h-[597px] left-0 top-0 absolute rounded-lg" src="{{ asset('/img/cancun-travel-experience-transportation.webp') }}" />
         </div>
     </div>
-
-    <img class="h-auto w-full 2xl:w-full 2xl:h-[613.42px] left-0 top-[800px] md:top-[600px] 2xl:top-[430px] pt-12 absolute" src="{{ asset('/img/atv-tour.webp') }}" />
 </div>
 
 <!-- reviews section -->
-<div class="w-full h-[750px] md:h-[750px] 2xl:h-[750px] relative my-12 py-12" id="reviews">
+<div class="w-full h-[750px] md:h-[750px] 2xl:h-[750px] relative py-12" id="reviews">
     <div class="w-full h-[152px] 2xl:h-[152px] mx flex-col justify-center items-center gap-[17px] inline-flex py-12 mb-4">
         <p class="text-orange-600 text-sm font-semibold font-['PP Mori'] uppercase tracking-widest pt-12 mt-12">TESTIMONIOS</p>
         <p class="w-full 2xl:w-[775px] text-center text-slate-950 text-[30px] 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[40px] 2xl:leading-[60px]">Historias inspiradoras de nuestros clientes</p>
@@ -366,33 +227,6 @@
             </div>
         </div>
 
-    </div>
-</div>
-
-<!-- gallery section -->
-<div class="w-full h-[800px] relative my-12 pt-12 hidden md:block 2xl:block">
-    <div class="w-full h-[146px] px-5 2xl:px-0 top-0 absolute flex-col justify-center items-center gap-[11px] inline-flex">
-        <p class="text-orange-600 text-sm font-semibold font-['PP Mori'] uppercase tracking-widest">Experiencias</p>
-        <p class="w-full 2xl:w-[771.69px] text-center text-slate-950 text-[26px] 2xl:text-[42px] font-bold font-['Trip Sans'] leading-[40px] 2xl:leading-[60px]">Un pequeño vistazo a nuestro tour, una gran experiencia para siempre</p>
-    </div>
-    <div class="w-full h-[314px] 2xl:h-[514px] top-[176px] absolute flex justify-center items-center">
-        <div class="w-full h-[252px] left-[-50px] top-0 absolute justify-center items-center gap-2.5 flex 2xl:inline-flex">
-            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-1.webp') }}" />
-            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-2.webp') }}" />
-            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-3.webp') }}" />
-            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-4.webp') }}" />
-            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-5.webp') }}" />
-            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-6.webp') }}" />
-        </div>
-
-        <div class="w-full h-[252px] left-[0px] top-[262px] absolute justify-center items-center gap-2.5 inline-flex">
-            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-7.webp') }}" />
-            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-8.webp') }}" />
-            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-9.webp') }}" />
-            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-10.webp') }}" />
-            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-11.webp') }}" />
-            <img class="w-[252px] h-[252px] rounded-sm" src="{{ asset('/img/gallery/cancun-travel-experience-galleria-12.webp') }}" />
-        </div>
     </div>
 </div>
 
@@ -578,20 +412,6 @@
                     <div class="text-black text-sm 2xl:text-xl font-normal font-['Trip Sans']">info@cancuntravelexperience.com</div>
                     <div class="text-indigo-950 text-sm 2xl:text-base font-normal font-['PP Mori']">E-mail</div>
                 </div>
-            </div>
-            <div class="pl-[18px] pr-[8px] 2xl:pr-[38px] py-5 bg-sky-50 rounded-[7px] justify-start items-start gap-3.5 inline-flex">
-                <div class="w-[58px] h-[58px] relative">
-                    <div class="w-[58px] h-[58px] left-0 top-0 absolute bg-white rounded-[13px]"></div>
-                    <div class="w-6 h-6 left-[17px] top-[17.09px] absolute">
-                        <div class="w-6 h-6 left-0 top-0 absolute">
-                            <img src="{{ asset('/img/icons/location.png') }}" alt="">
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="flex-col justify-start items-start gap-[7px] inline-flex">
-                    <div class="w-auto 2xl:w-80 text-black text-sm 2xl:text-xl font-normal font-['Trip Sans']">Huatulco, México</div>
-                    <div class="text-indigo-950 text-sm 2xl:text-base font-normal font-['PP Mori']">Ubicación</div>
-                </div> -->
             </div>
         </div>
     </div>

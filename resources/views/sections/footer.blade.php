@@ -98,7 +98,7 @@
                     </div>
                 </div>
                 <div class="w-[276px] h-[61px] left-0 top-0 absolute">
-                    <img class="w-[276px] h-[61px] left-0 top-0 absolute" src="{{ asset('/img/cancun-travel-experience-logo.webp') }}" />
+                    <img class="w-[276px] h-[61px] left-0 top-0 absolute" src="{{ asset('/img/travel-experience-logo.webp') }}" />
                 </div>
             </div>
         </div>
@@ -107,7 +107,7 @@
     <!-- mobile -->
     <div class="block md:hidden 2xl:hidden">
         <div class="w-[276px] h-[61px]">
-            <img class="w-[276px] h-[61px] left-0 top-5 absolute" src="{{ asset('/img/cancun-travel-experience-logo.webp') }}" />
+            <img class="w-[276px] h-[61px] left-0 top-5 absolute" src="{{ asset('/img/travel-experience-logo.webp') }}" />
         </div>
         <div class="w-96 h-20 pl-5 flex-col justify-start items-start gap-2.5 inline-flex">
             <div class="text-white text-sm font-semibold font-['PP Mori'] leading-snug">Suscríbase a nuestro boletín</div>
